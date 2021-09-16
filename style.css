@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:url(image/corona.jpg);
+}
+
+h4{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    color:white;
+}
+input{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: none !important;
+}
+
+table th , td{
+   color:black;
+   text-align: center;
+   font-size: 1.5rem;
+}
+table th{
+    background-color: #eee;
+}
+table tr:nth-child(1n){
+    background-color: rgb(134, 241, 84);
+}
+table tr:nth-child(2n){
+    background-color: rgb(250, 101, 75);
+}
+
+@media screen and (max-width:480px){
+    html{
+        font-size: 50%;
+    }
+}
+
+
+
+
+
+
